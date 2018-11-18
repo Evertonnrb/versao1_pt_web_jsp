@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+body{
+	background:#292931;
+	font-family: 'KoHo', sans-serif;
+}
+.frm-login{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+}
+.frm-login h2{
+	text-align: center;
+	font-size:38px;
+	color: #fff;
+}
+.frm-login input{
+	display:block;
+	margin-bottom: 10px;
+	width: 320px;
+	height: 30px;
+	padding: 10px;
+	outline:none;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius:3px;
+	font-size: 14px;
+	font-style: oblique;
+}
+
+.frm-login #bt-logar{
+	margin-left:20px;
+	width: 300px;
+	height: 50px;
+	margin-top: 25px;
+	background: #ddd;
+}
+
+.frm-login #bt-logar:hover{
+	background: #55acee;
+}
