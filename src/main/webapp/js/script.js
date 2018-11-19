@@ -11,7 +11,7 @@ function validarCampoVazio(login,senha){
 		login.value.focus;
 		return false;
 	}
-	if(senha.value == "" || senha.value.length < 8){
+	if(senha.value == "" || senha.value.length < 2){
 		alert("Senha inválida");
 		senha.focus;
 		return false;

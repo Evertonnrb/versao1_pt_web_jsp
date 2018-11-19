@@ -12,9 +12,9 @@
 		<nav>
 			<ul>
 				<li> <a href="#">Sobre</a> </li>
-				<li> <a href="sistema/contato.jsp">Contato</a> </li>
-				<li> <a href="sistema/cadastrar-usuario.jsp">Cadastre-se</a> </li>
-				<li> <a href="sistema/login.jsp">Login</a> </li>
+				<li> <a href="contato.jsp">Contato</a> </li>
+				<li> <a href="cadastrar-usuario.jsp">Cadastre-se</a> </li>
+				<li> <a href="../login.jsp">Login</a> </li>
 				<li style="float: right;"> <a href="#" class="active">Quem sou</a> </li>
 			</ul>
 		</nav>
@@ -32,12 +32,12 @@
 	</div>
 <div class="rodape">
 		<ul>
-			<li> <a href="http://www.twitter.com"><img src="_img/twitter.png"></a></li>
-			<li> <a href="http://www.facebook.com"><img src="_img/facebook.png"/></a></li>
-			<li> <a href="http://www.youtube.com"><img src="_img/youtube.png"/></a></li>
-			<li> <a href="http://www.linkedin.com"><img src="_img/linkedin.png"/></a></li>
-			<li> <a href="http://www.instagram.com"><img src="_img/instagram.png"/></a></li>
-			<li> <a href="http://www.googleplus.com"><img src="_img/google.png"/></a></li>
+			<li> <a href="http://www.twitter.com"><img src="../_img/twitter.png"></a></li>
+			<li> <a href="http://www.facebook.com"><img src="../_img/facebook.png"/></a></li>
+			<li> <a href="http://www.youtube.com"><img src="../_img/youtube.png"/></a></li>
+			<li> <a href="http://www.linkedin.com"><img src="../_img/linkedin.png"/></a></li>
+			<li> <a href="http://www.instagram.com"><img src="../_img/instagram.png"/></a></li>
+			<li> <a href="http://www.googleplus.com"><img src="../_img/google.png"/></a></li>
 		</ul>
 	</div>
 </body>

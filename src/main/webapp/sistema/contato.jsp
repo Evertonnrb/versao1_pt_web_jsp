@@ -12,9 +12,9 @@
 	<div class="menu">
 		<nav>
 			<ul>
-				<li> <a href="../index.jsp">Home</a> </li>
+				<li> <a href="index.jsp">Home</a> </li>
 				<li> <a href="cadastrar-usuario.jsp">Cadastre-se</a> </li>
-				<li> <a href="login.jsp">Login</a> </li>
+				<li> <a href="../login.jsp">Login</a> </li>
 				<li style="float: right;"> <a href="#" class="active">Quem sou</a> </li>
 			</ul>
 		</nav>
