@@ -42,7 +42,7 @@
 
 .busca input {
 	margin-top: 10px;
-	float: right; margin-bottom : 10px;
+	float: right; 
 	width: 100px;
 	height: 40px;
 	background-color: #fff;
@@ -51,6 +51,7 @@
 	background-repeat: no-repeat;
 	padding-left: 40px;
 	margin-bottom: 10px;
+	margin-right: 50px;
 }
 
 .busca input:hover {
@@ -75,3 +76,130 @@
 	font-size: 22px;
 	text-align: left;
 }
+
+
+/*formulario de cadastro*/
+#tag-form form{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 400px;
+}
+
+#tag-form h1{
+	text-align:center;
+	font-size:32px;
+	color:#696969;
+}
+
+#tag-form p{
+	text-align:center;
+	font-size:18px;
+	color:#696969;
+	margin-bottom: 20px;
+}
+
+#tag-form input{
+	display:inline-block;
+	width: 400px;
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #0078ff;
+}
+
+#tag-form input[type='submit']{
+	width:200px;
+	height:50px;
+	background-color:#696969;
+	color:#fff;
+	border-radius: 3px;
+	margin-left: 90px;
+}
+/*formulário de contato*/
+#contato form{
+	width: 500px;
+	position:absolute;
+	top:50%;
+	left:40%;
+	transform:translate(-50%,-50%);
+}
+#contato form input{
+	width: 400px;
+	display: inline-block;
+	padding: 16px 0;
+	margin-bottom: 8px;
+	border:none;
+	border-bottom:1px solid #0078ff;
+}
+#contato form textarea{
+	width: 500px;
+	display: inline-block;
+	padding: 16px 0;
+	margin-bottom: 16px;
+	border:none;
+	border-bottom:1px solid #0078ff;
+}
+#contato form input[type='submit']{
+	width:100px;
+	background-color: #696969;
+	color:#fff;
+	float: right;
+}
+#contato form input[type='submit']:hover{
+	background-color: #0078ff;
+	color:#fff;
+}
+/*contrato*/
+#contrato{
+	float: right;
+	margin-left: 300px;
+}
+#contrato input[type='checkbox']{
+	border-radius: 1px solid #000;
+}
+/*rodapé*/
+.rodape{
+	background-color:#696969;
+	height:60px;
+	position: absolute;
+	bottom: -10px;
+	margin-bottom:0;
+	width: 99%;
+	padding: 2px;
+}
+.rodape ul{
+	height: 20px;
+	float: right;
+	margin-bottom: 0;
+	margin-right:50px;
+}
+.rodape ul li{
+	display: inline-block;
+}
+.rodape ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
