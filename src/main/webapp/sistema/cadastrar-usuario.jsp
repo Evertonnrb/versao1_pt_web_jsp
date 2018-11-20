@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +24,7 @@
 		<input type="text" placeholder="Buscar">
 	</div>
 	<div id="tag-form">
-		<form method="POST" action="../cadastrarUsuario">
+		<form action="../cadastrarUsuario" method="post">
 			<h1>Cadastre - se</h1>
 			<p>Registre-se para obter acesso a todo o conteúdo da plataforma e castra se para obter nossas novas postagens e atualizações.</p>
 			<input type="text" id="login" name="login" placeholder="Login de usuário" required x-moz-errormessage="Ops não esqueça desse campo">
@@ -33,7 +34,7 @@
 			<input type="submit" value="Cadastrar">
 			<div id="contrato">
 				<label for="contrato">Li e declaro que aceito os termos
-					<input type="radio" id="contrato" name="contrato">
+					<input type="checkbox" id="contrato" name="contrato">
 				</label>
 			</div>
 		</form>

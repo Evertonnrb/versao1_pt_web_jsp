@@ -2,16 +2,25 @@ package br.com.domain;
 
 public class UsuarioBean {
 
-	public String login;
-	public String email;
-	public String senha;
+	private int id;
+	private String login;
+	private String email;
+	private String senha;
 
-	public boolean login(String login, String senha) {
-		if (login.equalsIgnoreCase("admin") && senha.equalsIgnoreCase("admin")) {
-			return true;
-		} else {
-			return false;
-		}
+//	public boolean login(String login, String senha) {
+//		if (login.equalsIgnoreCase("admin") && senha.equalsIgnoreCase("admin")) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+//	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getLogin() {
