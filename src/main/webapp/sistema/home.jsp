@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Home page</title>
-  <link rel="stylesheet" type="text/css" href="css/principal.css">
+  <link rel="stylesheet" type="text/css" href="../css/principal.css">
 </head>
 <body>
 	<div class="menu">
@@ -15,7 +15,7 @@
 				<li> <a href="contato.jsp">Contato</a> </li>
 				<li> <a href="cadastrar-usuario.jsp">Cadastre-se</a> </li>
 				<li> <a href="../login.jsp">Login</a> </li>
-				<li style="float: right;"> <a href="#" class="active">Quem sou</a> </li>
+				<li style="float: right;"> <a href="../login.jsp" class="active">Logar</a> </li>
 			</ul>
 		</nav>
 	</div>

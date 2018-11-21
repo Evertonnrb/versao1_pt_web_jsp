@@ -31,8 +31,10 @@ public class LoginServlet extends HttpServlet {
 				RequestDispatcher dispatcher = req.getRequestDispatcher("sistema/acesso_liberado.jsp");
 				dispatcher.forward(req, resp);
 			} else {
-				RequestDispatcher dispatcher = req.getRequestDispatcher("sistema/acesso_negado.jsp");
-				dispatcher.forward(req, resp);
+				resp.sendRedirect("login.jsp");
+				resp.getWriter().println("<script>window.onload = document.getElementById('login').innerHtml='Erro'</script>");
+				//				RequestDispatcher dispatcher = req.getRequestDispatcher("login.jsp");
+//				dispatcher.forward(req, resp);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

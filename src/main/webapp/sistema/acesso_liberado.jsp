@@ -19,7 +19,8 @@
 <body>
 	<c:out value="${'Welcome to the club'}" />
 	<hr />
-	<h2 style="color: blue">Acesso liberado</h2>
+	<h2 style="color: blue">Painel admin</h2>
+	<hr>
 	<br>
 
 	<table border="1" class="tabela">
@@ -28,7 +29,8 @@
 			<td>Login</td>
 			<td>Email</td>
 			<td>Senha</td>
-			<td>Ação</td>
+			<td colspan="2">Ação</td>
+			
 		</tr>
 		<c:forEach items="${dao.listar()}" var="u">
 		<tr>
@@ -37,6 +39,7 @@
 			<td> <c:out value="${u.email}"/> </td>
 			<td> <c:out value="${u.senha}"/> </td>
 			<td> <a href="cadastrarUsuario?acao=delete&user=${u.login}">Excluir</a> </td>
+			<td> <a href="#">Editar</a> </td>
 		</tr>
 		</c:forEach>
 	</table>

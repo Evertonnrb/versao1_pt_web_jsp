@@ -14,15 +14,13 @@
 	<div class="menu">
 		<nav>
 			<ul>
-				<li><a href="../index.jsp">Home</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="contato.jsp">Contato</a></li>
-				<li style="float: right;"><a href="#" class="active">Quem sou</a></li>
+				<li><a href="sistema/home.jsp">Home</a></li>
+<!-- 				<li style="float: right;"><a href="#" class="active">Logar</a></li> -->
 			</ul>
 		</nav>
 	</div>
 		<div class="frm-login">
-			<h2>Login</h2>
+			<h2 id="login">Login</h2>
 			<form action="LoginService" method="post">
 			<input type="text" name="login" id="login" placeholder="login">
 			<input type="password" name="senha" id="senha" placeholder="senha">	
@@ -30,7 +28,7 @@
 			</form>
 		</div>
 		<span id="cadastro">
-			<a href="sistema/cadastrar-usuario.jsp">Cadastre - se</a>
+			<a href="sistema/cadastrar-usuario.jsp">Cadastre-se</a>
 		</span>
 	<div class="rodape">
 		<ul>

@@ -12,7 +12,7 @@
 	<div class="menu">
 		<nav>
 			<ul>
-				<li><a href="index.jsp">Home</a></li>
+				<li><a href="home.jsp">Home</a></li>
 				<li><a href="#">Sobre</a></li>
 				<li><a href="contato.jsp">Contato</a></li>
 				<li><a href="../login.jsp">Login</a></li>
